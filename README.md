@@ -14,5 +14,11 @@ A comprehensive, bilingual (French/English) Java console application designed to
 - **File I/O:** Implemented reading and writing to text files using `BufferedReader`, `FileWriter`, and `PrintWriter`.
 - **Robustness:** Added `try-catch` blocks to handle invalid user inputs and file reading errors.
 
+## Project Structure
+- `Clinic.java`: The main entry point containing the user interface and menu loop.
+- `Management.java`: The controller class handling data logic, `ArrayList`, `HashMap`, and File I/O.
+- `Patient.java`: The abstract base class defining the core patient structure.
+- `Inpatient.java` & `Outpatient.java`: Subclasses handling specific billing logic and data for different patient types.
+
 ## Tech Stack
 - Java (Console-based)
